@@ -1,0 +1,190 @@
+/* All Common CSS Part Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All Common CSS Part End  */
+
+/* Button Part Start  */
+#btnPart {
+  background: #53e0d7;
+  background: linear-gradient(
+    90deg,
+    rgba(83, 224, 215, 1) 0%,
+    rgba(148, 160, 247, 1) 50%,
+    rgba(252, 252, 252, 1) 100%
+  );
+  height: 650px;
+}
+button {
+  background: #f060f0;
+  background: linear-gradient(
+    90deg,
+    rgba(240, 96, 240, 1) 0%,
+    rgba(245, 179, 245, 1) 50%,
+    rgba(241, 228, 242, 1) 100%
+  );
+  font-size: 20px !important;
+  margin-top: 30px !important;
+  margin-right: 40px !important;
+  padding: 10px 20px;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px 0px #2e2f35;
+}
+.box {
+  height: 300px;
+  width: 500px;
+  background: #535ae0;
+  background: linear-gradient(
+    90deg,
+    rgba(83, 90, 224, 1) 0%,
+    rgba(181, 187, 235, 1) 50%,
+    rgba(233, 234, 245, 1) 100%
+  );
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.boxBack {
+  height: 300px;
+  width: 500px;
+  background: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 247, 153, 1) 50%,
+    rgba(86, 184, 90, 1) 100%
+  );
+  border-radius: 10px;
+  margin-top: 40px;
+}
+/* Button Part End  */
+
+/* Countdown Part Start  */
+/* general styling */
+#countdownPart {
+  padding-top: 100px;
+}
+#countdownPart ul {
+  align-items: center;
+
+  display: flex;
+}
+#countdownPart ul li {
+  padding: 20px 40px;
+  background: #d49b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(212, 155, 155, 1) 0%,
+    rgba(217, 108, 108, 1) 48%,
+    rgba(217, 106, 106, 1) 50%,
+    rgba(217, 65, 54, 1) 100%
+  );
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.colon {
+  font-size: 80px;
+}
+.colonTwo {
+  font-size: 80px;
+}
+.colonThree {
+  font-size: 80px;
+}
+#countdownPart {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 0.5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+/* Countdown Part End  */
+
+/* CounterUp Part Start  */
+#counterUpPart {
+  margin-top: 200px;
+}
+#counterUpPart .row {
+  border-radius: 20px;
+}
+#counterUpPart .row .col-sm-3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#counterUpPart div:nth-child(1) {
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+}
+#counterUpPart div:nth-child(2) {
+  color: #0c0101;
+  font-size: 40px;
+  font-weight: 400;
+}
+/* CounterUp Part End  */

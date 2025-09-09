@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plugin</title>
+    <!-- CSS Link Start  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS Link End  -->
+
+    <!-- Google Font Link Start  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Covered+By+Your+Grace&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Font Link End  -->
+  </head>
+  <body>
+    <!-- Button Part Start  -->
+    <section id="btnPart">
+      <div class="container">
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="hideShow">Hide/Show</button>
+        <button id="fadeOut">Fade Out</button>
+        <button id="fadeIn">Fade In</button>
+        <button id="fadeOutIn">Fade Out/In</button>
+        <button id="slideUp">Slide Up</button>
+        <button id="slideDown">Slide Down</button>
+        <button id="slideUpDown">Slide Up/Down</button>
+        <button id="boxBackShow">Box-2 Show</button>
+        <button id="boxBackHide">Box-2 Hide</button>
+        <button id="boxBackShowHide">Box-2 Show/Hide</button>
+        <div class="box"></div>
+      </div>
+    </section>
+    <!-- Button Part End  -->
+
+    <!-- Countdown Part Start  -->
+    <section id="countdownPart">
+      <div class="container">
+        <h1 id="headline">Countdown</h1>
+        <div id="countdown">
+          <div class="row">
+            <ul>
+              <div class="col-lg-3">
+                <li><span id="days"></span>days</li>
+              </div>
+              <div class="colon">:</div>
+              <div class="col-lg-3">
+                <li><span id="hours"></span>Hours</li>
+              </div>
+              <div class="colonTwo">:</div>
+              <div class="col-lg-3">
+                <li><span id="minutes"></span>Minutes</li>
+              </div>
+              <div class="colonThree">:</div>
+              <div class="col-lg-3">
+                <li><span id="seconds"></span>Seconds</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+          <span>🎂</span>
+        </div>
+      </div>
+    </section>
+    <!-- Countdown Part End  -->
+
+    <!-- CounterUp Part Start  -->
+    <section id="counterUpPart">
+      <div class="container">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+        />
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link
+          href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+          rel="stylesheet"
+        />
+
+        <div class="container text-center">
+          <div class="row text-center">
+            <h1 style="margin-bottom: 50px; font-weight: bold">
+              Count Up Number
+            </h1>
+          </div>
+          <div class="row" style="background: #e4c7d5">
+            <div class="col-sm-3">
+              <div class="number">780</div>
+              <div class="">Projects</div>
+            </div>
+            <div class="col-sm-3">
+              <div class="number">236</div>
+              <div class="">Clients</div>
+            </div>
+            <div class="col-sm-3">
+              <div class="number">430</div>
+              <div class="">Logo</div>
+            </div>
+            <div class="col-sm-3">
+              <div class="number">1007</div>
+              <div class="">Services</div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          $(".number").counterUp({ time: 3000 });
+        </script>
+      </div>
+    </section>
+    <!-- CounterUp Part End  -->
+
+    <!-- JS Link Start  -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- JS Link End  -->
+  </body>
+</html>
