@@ -101,4 +101,7 @@ new VenoBox({
   share: true,
   spinner: "rotating-plane",
 });
+new VenoBox({
+  selector: ".my-video-links",
+});
 // VenoBox Part End

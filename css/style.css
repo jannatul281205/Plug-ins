@@ -222,7 +222,7 @@ li span {
   color: #000000;
   font-size: 36px;
 }
-.videoBoxOne {
+.videoBox {
   margin-top: 50px;
   padding: 61px 174px;
   background: url(../images/iphone\ 17\ wallpaper.png);
@@ -232,41 +232,9 @@ li span {
   border-radius: 5px;
   margin-right: 30px;
 }
-.videoBoxOne i {
+.videoBox i {
   font-size: 70px;
   color: white;
-  text-align: center;
-  margin-left: -40px;
-}
-.videoBoxTwo {
-  margin-top: 50px;
-  padding: 61px 174px;
-  background: url(../images/iphone\ air\ wallpaper.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  margin-right: 30px;
-}
-.videoBoxTwo i {
-  font-size: 70px;
-  color: black;
-  text-align: center;
-  margin-left: -40px;
-}
-.videoBoxThree {
-  margin-top: 50px;
-  padding: 61px 174px;
-  background: url(../images/airpods\ wallpaper.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  margin-right: 30px;
-}
-.videoBoxThree i {
-  font-size: 70px;
-  color: black;
   text-align: center;
   margin-left: -40px;
 }
